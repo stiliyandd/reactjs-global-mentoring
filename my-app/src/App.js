@@ -1,5 +1,6 @@
 import './App.css';
 import { Counter } from './components/Counter';
+import Search from './components/Search/Search';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <header className="App-header">
         <main>
           <Counter />
+          <Search />
         </main>
       </header>
     </div>
